@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+/venv/
+dist/
+build/
+*.egg-info/
+dados_ibge_estados.csv
+.vscode/
