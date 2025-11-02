@@ -34,11 +34,28 @@ Crie e ative um ambiente virtual para isolar as dependências do projeto:
 
 ```bash
 python -m venv venv
+```
 
+```bash
 source venv/bin/activate
+```
 
+```bash
 pip install playwright
+```
 
+```bash
 playwright install
+```
 
+### 2. Execução do Script
+
+```bash
 python src/main.py
+```
+
+### 3. Resultado Esperado
+
+O script fará a extração de dados para os 27 estados. Ao finalizar, o resultado será salvo no seguinte arquivo:
+
+Arquivo de Saída: `dados_ibge_estados.csv`
